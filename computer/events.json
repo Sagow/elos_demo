@@ -1,0 +1,29 @@
+[
+    {
+        "severity" : 1,
+
+        "hardwareid": "2484computer",
+
+        "messageCode": 7002,
+
+        "payload": "shutdown"
+    },
+    {
+        "severity" : 1,
+
+        "hardwareid": "2484computer",
+
+        "messageCode": 1000,
+
+        "payload": "speed up"
+    },
+    {
+        "severity" : 1,
+
+        "hardwareid": "2484computer",
+
+        "messageCode": 1000,
+
+        "payload": "speed down"
+    }
+]

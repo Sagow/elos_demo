@@ -1,0 +1,29 @@
+[
+    {
+        "severity" : 1,
+
+        "hardwareid": "2258interface",
+
+        "messageCode": 7002,
+
+        "payload": "shutdown"
+    },
+    {
+        "severity" : 4,
+
+        "hardwareid": "2258interface",
+
+        "messageCode": 1000,
+
+        "payload": "speed up"
+    },
+    {
+        "severity" : 4,
+
+        "hardwareid": "2258interface",
+
+        "messageCode": 1000,
+
+        "payload": "speed down"
+    }
+]

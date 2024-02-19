@@ -1,0 +1,29 @@
+[
+    {
+        "severity" : 6,
+
+        "hardwareid": "5781brakes",
+
+        "messageCode": 7127,
+
+        "payload" : "brakes normal wear"
+    },
+    {
+        "severity" : 3,
+
+        "hardwareid": "5781brakes",
+
+        "messageCode": 7126,
+
+        "payload" : "brakes too worn"
+    },
+    {
+        "severity" : 2,
+
+        "hardwareid": "5781brakes",
+
+        "messageCode": 6003,
+
+        "payload" : "brakes critically too worn"
+    }
+]

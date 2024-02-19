@@ -1,0 +1,29 @@
+[
+    {
+        "severity" : 6,
+
+        "hardwareid": "24665888thermometer",
+
+        "messageCode": 7127,
+
+        "payload" : "oil normal temp"
+    },
+    {
+        "severity" : 3,
+
+        "hardwareid": "24665888thermometer",
+
+        "messageCode": 7126,
+
+        "payload" : "oil too hot"
+    },
+    {
+        "severity" : 2,
+
+        "hardwareid": "24665888thermometer",
+
+        "messageCode": 6003,
+
+        "payload" : "oil critically too hot"
+    }
+]
