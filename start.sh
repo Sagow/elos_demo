@@ -1,13 +1,14 @@
 #!/bin/bash
 # mkdir /tmp/elos
 # elosd &
+cd build
 cd brakes
-make && ./brakes &
+./brakes &
 cd ../computer
-make && ./computer &
+./computer &
 cd ../oil_thermometer
-make && ./oil_thermometer &
+./oil_thermometer &
 cd ../speed_sensor
-make && ./speed_sensor &
+./speed_sensor &
 cd ../interface
-make && ./interface
+./interface

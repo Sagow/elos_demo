@@ -8,10 +8,10 @@ int main() {
     json_object *eventsJson;
 
     json_object_get_object(thermometer);
-    thermometer = json_object_from_file("source.json");
+    thermometer = json_object_from_file("config/source.json");
     elosEventSourceFromJsonObject(&source, thermometer);
     eventsJson = json_object_new_array();
-    eventsJson = json_object_from_file("events.json");
+    eventsJson = json_object_from_file("config/events.json");
     elosEventVectorFromJsonArray(eventsJson, &events);
 
     elosSession_t *session = NULL;

@@ -9,10 +9,10 @@ int main() {
     json_object *eventsJson;
 
     json_object_get_object(sensor);
-    sensor = json_object_from_file("source.json");
+    sensor = json_object_from_file("config/source.json");
     elosEventSourceFromJsonObject(&source, sensor);
     eventsJson = json_object_new_array();
-    eventsJson = json_object_from_file("events.json");
+    eventsJson = json_object_from_file("config/events.json");
     elosEventVectorFromJsonArray(eventsJson, &events);
     elosSession_t *session = NULL;
     if (elosConnectTcpip("127.0.0.1", 54321, &session) == SAFU_RESULT_FAILED)
